@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
-import { getUserData } from "../../api/api";
+import { useEffect, useState } from 'react';
+// @ts-ignore: Unreachable code error
+import { getUserData } from '../../api/api';
 
 const UserGetUsers = (get: unknown, response: unknown) => {
   const [data, setData] = useState([]);
